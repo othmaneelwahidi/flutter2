@@ -10,7 +10,7 @@ class DashboardPage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text(
-          "Welcome to the LLM ChatBot App",
+          "ChatBot App",
           style: TextStyle(color: Colors.black),
         ),
       ),
@@ -25,8 +25,8 @@ class DashboardPage extends StatelessWidget {
             );
           },
           style: ElevatedButton.styleFrom(
-            backgroundColor: Colors.teal, // Couleur d'arrière-plan
-            foregroundColor: Colors.white, // Couleur du texte
+            backgroundColor: const Color.fromARGB(255, 0, 66, 60), // Couleur d'arrière-plan
+            foregroundColor: const Color.fromARGB(255, 157, 0, 0), // Couleur du texte
             padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 16),
           ),
           child: const Text(
