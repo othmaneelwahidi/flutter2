@@ -44,7 +44,7 @@ class DeepSeekPage extends StatelessWidget {
                         "${state.errorMessage}",
                         style: TextStyle(color: Colors.red),
                       ),
-                      ElevatedButton(onPressed: () {}, child: Text("Retry"))
+                      ElevatedButton(onPressed: () {}, child: Text("Try again"))
                     ],
                   );
                 }
