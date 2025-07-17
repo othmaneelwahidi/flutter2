@@ -26,7 +26,7 @@ class DashboardPage extends StatelessWidget {
           },
           style: ElevatedButton.styleFrom(
             backgroundColor: const Color.fromARGB(255, 0, 66, 60), // Couleur d'arrière-plan
-            foregroundColor: const Color.fromARGB(255, 157, 0, 0), // Couleur du texte
+            foregroundColor: const Color.fromARGB(255, 255, 255, 255), // Couleur du texte
             padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 16),
           ),
           child: const Text(
